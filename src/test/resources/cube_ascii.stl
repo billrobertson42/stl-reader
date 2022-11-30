@@ -1,0 +1,86 @@
+solid untitled
+facet normal 0.0 0.0 1.0
+  outer loop
+    vertex -35.0 60.0 20.0
+    vertex -55.0 60.0 20.0
+    vertex -35.0 40.0 20.0
+  endloop
+endfacet
+facet normal 0.0 0.0 1.0
+  outer loop
+    vertex -35.0 40.0 20.0
+    vertex -55.0 60.0 20.0
+    vertex -55.0 40.0 20.0
+  endloop
+endfacet
+facet normal 0.0 0.0 -1.0
+  outer loop
+    vertex -35.0 40.0 0.0
+    vertex -55.0 40.0 0.0
+    vertex -35.0 60.0 0.0
+  endloop
+endfacet
+facet normal -0.0 0.0 -1.0
+  outer loop
+    vertex -35.0 60.0 0.0
+    vertex -55.0 40.0 0.0
+    vertex -55.0 60.0 0.0
+  endloop
+endfacet
+facet normal 0.0 -1.0 0.0
+  outer loop
+    vertex -55.0 40.0 20.0
+    vertex -55.0 40.0 0.0
+    vertex -35.0 40.0 20.0
+  endloop
+endfacet
+facet normal 0.0 -1.0 -0.0
+  outer loop
+    vertex -35.0 40.0 20.0
+    vertex -55.0 40.0 0.0
+    vertex -35.0 40.0 0.0
+  endloop
+endfacet
+facet normal -1.0 -0.0 -0.0
+  outer loop
+    vertex -55.0 60.0 20.0
+    vertex -55.0 60.0 0.0
+    vertex -55.0 40.0 20.0
+  endloop
+endfacet
+facet normal -1.0 0.0 0.0
+  outer loop
+    vertex -55.0 40.0 20.0
+    vertex -55.0 60.0 0.0
+    vertex -55.0 40.0 0.0
+  endloop
+endfacet
+facet normal 0.0 1.0 0.0
+  outer loop
+    vertex -35.0 60.0 20.0
+    vertex -35.0 60.0 0.0
+    vertex -55.0 60.0 20.0
+  endloop
+endfacet
+facet normal 0.0 1.0 0.0
+  outer loop
+    vertex -55.0 60.0 20.0
+    vertex -35.0 60.0 0.0
+    vertex -55.0 60.0 0.0
+  endloop
+endfacet
+facet normal 1.0 -0.0 0.0
+  outer loop
+    vertex -35.0 40.0 20.0
+    vertex -35.0 40.0 0.0
+    vertex -35.0 60.0 20.0
+  endloop
+endfacet
+facet normal 1.0 0.0 0.0
+  outer loop
+    vertex -35.0 60.0 20.0
+    vertex -35.0 40.0 0.0
+    vertex -35.0 60.0 0.0
+  endloop
+endfacet
+endsolid untitled
