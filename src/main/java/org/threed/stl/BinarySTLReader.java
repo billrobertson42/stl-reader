@@ -44,10 +44,24 @@ public class BinarySTLReader implements AutoCloseable {
     private final FileChannel input;
     private long expectedTriangles;
 
+    /**
+     * Open an STL file, prepare it for reading with readTriangles
+     * @param p the path to the file
+     * @throws IOException per FileChannel.open
+     */
     public BinarySTLReader(Path p) throws IOException {
         input = FileChannel.open(p, StandardOpenOption.READ);
     }
 
+    /**
+     * Read all faces in the stl file and report them to faceConsumer. It will pass
+     * the index of the triangle along with an STLFace object to the faceConsumer.
+     * Note, this method re-uses the STLFace, so it is up to the consumer to store
+     * the data separately from the STLFace object it receives.
+     * @param faceConsumer A callback which will be called once per triangle in the STL file
+     * @return the number of triangles read
+     * @throws IOException
+     */
     public long readTriangles(BiConsumer<Long, STLFace> faceConsumer) throws IOException {
         skipHeader();
         expectedTriangles = readTriangleCount();
