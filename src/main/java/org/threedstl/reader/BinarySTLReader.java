@@ -1,4 +1,4 @@
-package org.threed.stl;
+package org.threedstl.reader;
 
 // Copyright 2022 William Robertson
 //
